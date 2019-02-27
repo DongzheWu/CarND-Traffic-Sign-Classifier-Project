@@ -118,16 +118,16 @@ The first image might be difficult to classify because ...
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Speed limit(50km/h) 	| Speed limit(50km/h)  							| 
-| Road work    			| Road work 									|
-| Priority road			| Priority road									|
-| Yield	      			| Yield					 						|
-| Keep right			| Keep right      								|
-| Stop					| Stop      									|
-| Slippery Road			| Speed limit(30km/h)      						|
-| Children crossing		| Priority road      							|
+| Image			              |     Prediction	        				| 
+|:---------------------:|:--------------------------:| 
+| Speed limit(50km/h) 	 | Speed limit(50km/h)  						| 
+| Road work    	      		| Road work 							        		|
+| Priority road		       | Priority road					     				|
+| Yield	      		       	| Yield					 						          |
+| Keep right		  	       | Keep right      		   						|
+| Stop				             	| Stop      							        		|
+| Slippery Road		      	| Speed limit(30km/h)     			|
+| Children crossing	   	| Priority road      						  |
 
 The model was able to correctly guess 6 of the 8 traffic signs, which gives an accuracy of 75%. The accuracy is lower than the accuracy on the test set of 92.5%. However, there are only 8 images. The Children crossing sign wasn't detected correctly by the model, because the picture wasn't took by front view. I think if I warp images by using what I learned in the previous project to generate more training data, the model will work better. Moreover, Slippery Road was detected as Speed limit(30km/h). It seems that the model is not good at recognize the signs which have blur pattern inside. I think I can try to change the number of layers and the number of filters, maybe I can find another solution.  
 
