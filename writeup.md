@@ -51,6 +51,8 @@ The bar chart shows the number of train examples for each class.
 
 As a first step, I decided to generate additional data because I realized that the number of traffic examples for some classes is not enough. I added 1000 examples to the classes which have no more than examples. 
 I used rotation and blur to generate train examples. Rotation can simulate the pictures took from different angles to add the diversity of train data. I also found that there are some pictures unclear in the train examples, so I think using blur can add more unclear pictures to train the neural network better.
+
+
 ![image](./images/Xtrain1136.jpg)
 ![image](./images/rotation.jpg)
 ![image](./images/rotation.jpg)
@@ -59,6 +61,8 @@ I used rotation and blur to generate train examples. Rotation can simulate the p
 Then I converted all images to grayscale, because I got this idea from the paper Traffic Sign Recognition with Multi-Scale Convolutional Networks.
 After implementing grayscale images, the network was trained better.
 Here is an example of a traffic sign image before and after grayscaling.
+
+
 ![image](./images/Xtrain1136.jpg)
 ![image](./images/gray.jpg)
 
@@ -108,10 +112,9 @@ For the first architecture, I just copied LeNet from last exercise. The validati
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
-![image](./test_img/Test_Image1.jpg)                  ![image](./test_img/Test_Image2.jpg)
-![image](./test_img/Test_Image3.jpg)                  ![image](./test_img/Test_Image4.jpg)
-![image](./test_img/Test_Image5.jpg)                  ![image](./test_img/Test_Image6.jpg)
-![image](./test_img/Test_Image7.jpg)                  ![image](./test_img/Test_Image8.jpg)
+
+![image](./test_img/testimages.jpg) 
+
 The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
