@@ -180,8 +180,11 @@ Turn left ahead 0.00%
 Seventh image
 Slippery road:
 Prediction and Probability
+
 Speed limit (30km/h) 99.99%
+
 Road work 0.01%
+
 Speed limit (50km/h) 0.00%
 
 Eighth image
