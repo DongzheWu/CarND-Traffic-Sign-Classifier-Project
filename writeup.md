@@ -136,49 +136,87 @@ The model was able to correctly guess 6 of the 8 traffic signs, which gives an a
 The code for making predictions on my final model is located in the 19th cell of the Ipython notebook.
 
 First image
+
 Speed limit (50km/h):
+
 Prediction and Probability
+
 Speed limit (50km/h) 100.00%
+
 Speed limit (30km/h) 0.00%
+
 Speed limit (60km/h) 0.00%
 
+
 Second image
+
 Road work:
+
 Prediction and Probability
+
 Road work 100.00%
+
 Speed limit (20km/h) 0.00%
+
 Speed limit (30km/h) 0.00%
+
 
 Third image
+
 Priority road:
+
 Prediction and Probability
+
 Priority road 100.00%
+
 Keep right 0.00%
+
 Roundabout mandatory 0.00%
 
+
 Fourth image 
+
 Yield:
+
 Prediction and Probability
+
 Yield 100.00%
+
 Speed limit (20km/h) 0.00%
+
 Speed limit (30km/h) 0.00%
+
 
 Fifth image
+
 Keep right:
+
 Prediction and Probability
+
 Keep right 100.00%
+
 Speed limit (20km/h) 0.00%
+
 Speed limit (30km/h) 0.00%
 
+
 Sixth image
+
 Stop:
+
 Prediction and Probability
+
 Stop 100.00%
+
 Keep right 0.00%
+
 Turn left ahead 0.00%
 
+
 Seventh image
+
 Slippery road:
+
 Prediction and Probability
 
 Speed limit (30km/h) 99.99%
@@ -187,11 +225,17 @@ Road work 0.01%
 
 Speed limit (50km/h) 0.00%
 
+
 Eighth image
+
 Children crossing:
+
 Prediction and Probability
+
 Priority road 66.59%
+
 Bicycles crossing 29.24%
+
 Keep right 2.37%
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
