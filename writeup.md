@@ -43,7 +43,8 @@ The pictures are randomly selected from the train examples.
 The bar chart shows the number of train examples for each class.
 
 ![image](./images/bar_chart1.jpg)
-![image](./images/calibration1.jpg)
+
+![image](./images/train_example.jpg)
 
 ### Design and Test a Model Architecture
 
@@ -54,7 +55,7 @@ I used rotation and blur to generate train examples. Rotation can simulate the p
 
 
 ![image](./images/Xtrain1136.jpg)
-![image](./images/rotation.jpg)
+![image](./images/blur.jpg)
 ![image](./images/rotation.jpg)
 
 
