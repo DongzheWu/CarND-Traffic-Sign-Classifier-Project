@@ -134,7 +134,7 @@ The model was able to correctly guess 6 of the 8 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 19th cell of the Ipython notebook.
-
+---
 First image
 
 Speed limit (50km/h):
@@ -147,7 +147,7 @@ Speed limit (30km/h) 0.00%
 
 Speed limit (60km/h) 0.00%
 
-
+---
 Second image
 
 Road work:
@@ -160,7 +160,7 @@ Speed limit (20km/h) 0.00%
 
 Speed limit (30km/h) 0.00%
 
-
+---
 Third image
 
 Priority road:
@@ -173,7 +173,7 @@ Keep right 0.00%
 
 Roundabout mandatory 0.00%
 
-
+---
 Fourth image 
 
 Yield:
@@ -186,7 +186,7 @@ Speed limit (20km/h) 0.00%
 
 Speed limit (30km/h) 0.00%
 
-
+---
 Fifth image
 
 Keep right:
@@ -199,7 +199,7 @@ Speed limit (20km/h) 0.00%
 
 Speed limit (30km/h) 0.00%
 
-
+---
 Sixth image
 
 Stop:
@@ -212,7 +212,7 @@ Keep right 0.00%
 
 Turn left ahead 0.00%
 
-
+---
 Seventh image
 
 Slippery road:
@@ -225,7 +225,7 @@ Road work 0.01%
 
 Speed limit (50km/h) 0.00%
 
-
+---
 Eighth image
 
 Children crossing:
@@ -237,6 +237,8 @@ Priority road 66.59%
 Bicycles crossing 29.24%
 
 Keep right 2.37%
+
+---
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
